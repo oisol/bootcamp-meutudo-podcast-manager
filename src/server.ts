@@ -2,7 +2,7 @@ import * as http from 'node:http';
 import { app } from './app';
 
 const server = http.createServer(app);
-const PORT = process.env.PORT || 3000;
+const PORT = 8000;
 
 server.listen(PORT, () => {
   console.log(`Server started on port ${PORT}`)
